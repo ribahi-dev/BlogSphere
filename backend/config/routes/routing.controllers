@@ -1,0 +1,3 @@
+# Charge les controllers depuis src/Controller en utilisant les attributs
+resource: '../src/Controller/'
+type: attribute

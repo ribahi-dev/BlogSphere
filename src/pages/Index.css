@@ -1,0 +1,140 @@
+.index-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.index-header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.index-header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.index-logo {
+  margin: 0;
+  color: #333;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.index-nav-link {
+  color: #0066cc;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.2s;
+}
+
+.index-nav-link:hover {
+  color: #0052a3;
+}
+
+.index-nav-link-last {
+  color: #0066cc;
+  text-decoration: none;
+  margin-right: 0;
+}
+
+.index-hero {
+  background-color: #0066cc;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.index-hero-title {
+  font-size: 36px;
+  margin: 0 0 20px 0;
+}
+
+.index-hero-subtitle {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.index-hero-btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.2s;
+}
+
+.index-hero-btn:hover {
+  background-color: #e55a00;
+}
+
+.index-articles-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.index-articles-title {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.index-articles-empty {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+  color: #999;
+}
+
+.index-articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.index-article-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.index-article-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.index-article-content:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.index-article-title {
+  color: #333;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.index-article-description {
+  color: #666;
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.index-article-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #999;
+}
